@@ -1,22 +1,20 @@
 <template>
   <div id="app">
-    <Messages></Messages>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-    import HelloWorld from './components/HelloWorld.vue'
-    import Messages from "./components/Messages";
-
+    import Login from "./components/Login";
     export default {
         name: 'app',
         components: {
-            HelloWorld,
-            Messages
+            Login
         }
     }
 </script>
 
 <style>
+
 
 </style>
