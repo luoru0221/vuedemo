@@ -101,6 +101,7 @@
                                 message: "登录成功",
                                 type: "success"
                             });
+                            //将token保存到sessionStorage中
                             window.sessionStorage.setItem("token", res.data.token)
                             this.$router.push("/home");
                         })
